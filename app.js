@@ -25,4 +25,5 @@ app.use('/img', express.static(path.join(__dirname, '/img')));
 app.use('/css', express.static(path.join(__dirname, '/css')));
 app.use('/js', express.static(path.join(__dirname, '/js')));
 
-app.listen(port, () => console.log(`Portfolio app listening on port ${port}!`))
+app.listen(port, () => console.log(`Portfolio app listening on port ${port}!`));
+app.listen(process.env.PORT)
