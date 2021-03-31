@@ -71,6 +71,10 @@ h1 {
   font-size: 20px;
 }
 
+.profile_list li {
+  margin: 0 0 20px 0;
+}
+
 .nav {
   display: flex;
   flex-direction: row;
